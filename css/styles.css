@@ -254,3 +254,13 @@ nav {
   text-transform: uppercase;
   margin: auto;
   width: 90%; }
+
+#restaurant-container,
+#reviews-container {
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #fff;
+  padding: 140px 0px 30px;
+  width: 100%; }
+
+#restaurant-container {
+  text-align: center; }
