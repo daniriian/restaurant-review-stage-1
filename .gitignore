@@ -1,3 +1,5 @@
 /node_modules
 /scss
+/css/styles_good.css
 package.*
+.gitignore
