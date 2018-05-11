@@ -234,8 +234,23 @@ nav {
   line-height: 1.1; }
 
 #restaurant-img {
+  display: block;
+  margin: 0 auto;
   width: 90%; }
 
 #restaurant-address {
   font-size: 12pt;
   margin: 10px 0px; }
+
+#restaurant-cuisine {
+  background-color: #333;
+  color: #ddd;
+  font-size: 12pt;
+  font-weight: 300;
+  letter-spacing: 10px;
+  margin: 0 0 20px;
+  padding: 2px 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  width: 90%; }
