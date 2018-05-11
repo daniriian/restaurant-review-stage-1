@@ -200,3 +200,25 @@ nav {
   #restaurants-list p {
     margin: 0;
     font-size: 14pt; }
+
+/* ====================== Restaurant Details ====================== */
+.inside header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; }
+
+.inside #map-container {
+  background: blue none repeat scroll 0 0;
+  height: 400px;
+  width: 100%; }
+
+.inside #map {
+  background-color: #ccc;
+  height: 100%;
+  width: 100%; }
+
+.inside #footer {
+  bottom: 0;
+  padding: 20px 0px 20px;
+  width: 100%; }
