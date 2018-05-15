@@ -31,9 +31,9 @@
   <!-- End header -->
 
   <!-- Beginning main -->
-  <main id="maincontent">
+  <main id="maincontent" aria-label="content">
     <!-- Beginning map -->
-    <section id="map-container">
+    <section id="map-container" aria-hidden="true" role="application" tabindex="-1">
       <div id="map"></div>
     </section>
     <!-- End map -->
@@ -64,6 +64,8 @@
   <!-- End footer -->
 
   <!-- Beginning scripts -->
+  <!-- ServiceWorker script -->
+  <script src="js/registerSW.js"></script>
   <!-- Database helpers -->
   <script type="text/javascript" src="js/dbhelper.js"></script>
   <!-- Main javascript file -->
